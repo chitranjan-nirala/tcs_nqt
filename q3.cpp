@@ -22,7 +22,7 @@ int rowwithMaxi1s(vector<vector<int>>arr, int n , int m ){
 }
  int main(){
      int n= 4, m=4;
-    vector<vector<int>> arr= {{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}};
+    vector<vector<int>> arr= {{0,0,1,0},{1,0,1,0},{0,0,0,0},{0,0,0,0}};
     cout<<rowwithMaxi1s(arr, n,m);
      return 0;
  }
